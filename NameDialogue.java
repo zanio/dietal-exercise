@@ -13,7 +13,7 @@ public class NameDialogue {
         int number_1 = Integer.parseInt(stringNumber) ;
 
         // show dialogue
-        String message = String.format("Welcome %s welcome to java your number, '%d'",name, number_1);
+        String message = String.format("Welcome %s welcome to java your number, %d",name, number_1);
             // show dialogue
         JOptionPane.showMessageDialog(null, message);
 

@@ -7,6 +7,10 @@ public class JavaGetinput{
         System.out.println("Choose any number");
         int getNumber1 = input.nextInt();
         System.out.println("Choose another number");
+        String x = "4";
+        System.out.print((int) Integer.parseInt(x));
+        System.out.println();
+
 
         int getnumber2 = input.nextInt();
         if(getNumber1 > getnumber2){

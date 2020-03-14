@@ -10,6 +10,7 @@ import java.security.*;
      private static final int eleven = 11;
      private static final int three = 3;
      private static final int twelve = 12;
+     private static int x;
 
      private enum Status {
          CONTINUE,
@@ -23,7 +24,6 @@ import java.security.*;
         Status gameStatus;
         int myPoint =0;
         int sumOfDice = rollDice();
-
         switch(sumOfDice){
             case eleven:
             case seven:

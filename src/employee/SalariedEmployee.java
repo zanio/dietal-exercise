@@ -1,17 +1,20 @@
 package employee;
 
-public class SalarizedEmployee extends Employee {
+public class SalariedEmployee extends Employee {
     private double weeklySalary;
-    public SalarizedEmployee(String firstName, String lastName, String socialSecurityNumber,double weeklySalary) {
+    public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary) {
         super(firstName, lastName, socialSecurityNumber);
+        this.weeklySalaryValidation(weeklySalary);
+    }
+
+    private void weeklySalaryValidation(double weeklySalary){
         if(weeklySalary < 0.0)
             throw new IllegalArgumentException("Weekly salary must be greater than 0.0");
         this.weeklySalary = weeklySalary;
     }
 
     public void setWeeklySalary(double weeklySalary) {
-        if(weeklySalary < 0.0)
-            throw new IllegalArgumentException("Weekly salary must be greater than 0.0");
+        this.weeklySalaryValidation(weeklySalary);
         this.weeklySalary = weeklySalary;
     }
 

@@ -1,29 +1,36 @@
 package employee;
 
-public class HourlyEmployee extends Employee{
+public class HourlyEmployee extends Employee {
     private double hourlyWage;
     private double hoursWorked;
 
     public HourlyEmployee(String firstName, String lastName, String socialSecurityNumber, double hourlyWage,
                           double hoursWorked) {
         super(firstName, lastName, socialSecurityNumber);
-        if(hourlyWage <0.0 )
-            throw new IllegalArgumentException("Hourly wage figure must be greater than 0.0");
-        if(hoursWorked < 0.0)
-            throw new IllegalArgumentException("Hoursworked value must be greater than 0.0");
+        this.hourlyWageValidation(hourlyWage);
+        this.hoursWorkedValidation(hoursWorked);
+
         this.hourlyWage = hourlyWage;
         this.hoursWorked = hoursWorked;
     }
 
+    private void hourlyWageValidation(double hourlyWage) {
+        if (hourlyWage < 0.0)
+            throw new IllegalArgumentException("Hourly wage figure must be greater than 0.0");
+    }
+
+    private void hoursWorkedValidation(double hoursWorked) {
+        if (hoursWorked < 0.0)
+            throw new IllegalArgumentException("Hoursworked value must be greater than 0.0");
+    }
+
     public void setHourlyWage(double hourlyWage) {
-        if(hourlyWage < 0.0)
-            throw  new IllegalArgumentException("Hourlywage value cannot be less than 0.0");
+    this.hourlyWageValidation(hourlyWage);
         this.hourlyWage = hourlyWage;
     }
 
     public void setHoursWorked(double hoursWorked) {
-        if(hoursWorked < 0.0)
-            throw new IllegalArgumentException("HoursWorked cannot be less than 0.0");
+        this.hoursWorkedValidation(hoursWorked);
         this.hoursWorked = hoursWorked;
     }
 
@@ -38,10 +45,10 @@ public class HourlyEmployee extends Employee{
     @Override
     public double earnings() {
         double earnedValue = 0.0;
-        if(hoursWorked <=40.0)
-            return earnedValue =hoursWorked * hourlyWage;
-        if(hoursWorked > 40.0)
-            return earnedValue = (hourlyWage* 40.0)+((hoursWorked-40.0)*hourlyWage);
+        if (hoursWorked <= 40.0)
+            return earnedValue = hoursWorked * hourlyWage;
+        if (hoursWorked > 40.0)
+            return earnedValue = (hourlyWage * 40.0) + ((hoursWorked - 40.0) * hourlyWage);
         return earnedValue;
     }
 
@@ -49,6 +56,6 @@ public class HourlyEmployee extends Employee{
     public String toString() {
         return String
                 .format("Salaried Employee: %s%n%s: $%,.2f%n%s: $%,.2f",
-                        super.toString(),"Hourly Wage",getHourlyWage(),"Hours Worked",getHoursWorked());
+                        super.toString(), "Hourly Wage", getHourlyWage(), "Hours Worked", getHoursWorked());
     }
 }

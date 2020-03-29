@@ -9,10 +9,9 @@ public class CommissionEmployee extends Employee {
     public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double commissionRate,
                               double grossSale) {
         super(firstName, lastName, socialSecurityNumber);
-        if (commissionRate < 0.0)
-            throw new IllegalArgumentException("Commission rate can only be a value greater than 0.0");
-        if (grossSale < 0.0)
-            throw new IllegalArgumentException("Gross sale can only be a value greater than 0");
+        this.grossSaleValidation(grossSale);
+        this.commissionRateValidation(commissionRate);
+
         this.commissionRate = commissionRate;
         this.grossSale = grossSale;
     }
@@ -21,19 +20,27 @@ public class CommissionEmployee extends Employee {
         return commissionRate;
     }
 
+    private void commissionRateValidation(double commissionRate) {
+        if (commissionRate < 0.0)
+            throw new IllegalArgumentException("Commission rate can only be a value greater than 0.0");
+    }
+
+    private void grossSaleValidation(double grossSale) {
+        if (grossSale < 0.0)
+            throw new IllegalArgumentException("Gross sale can only be a value greater than 0");
+    }
+
     public double getGrossSale() {
         return grossSale;
     }
 
     public void setCommissionRate(double commissionRate) {
-        if (commissionRate < 0.0)
-            throw new IllegalArgumentException("Commission rate can only be a value greater than 0.0");
+        this.commissionRateValidation(commissionRate);
         this.commissionRate = commissionRate;
     }
 
     public void setGrossSale(double grossSale) {
-        if (grossSale < 0.0)
-            throw new IllegalArgumentException("Gross sale value can only be a value greater or equal to one");
+        this.grossSaleValidation(grossSale);
         this.grossSale = grossSale;
     }
 
@@ -46,6 +53,6 @@ public class CommissionEmployee extends Employee {
     public String toString() {
         return String
                 .format("Salaried Employee: %s%n%s: %,.2f %n%s: $%,.2f",
-                        super.toString(),"commission rate",getCommissionRate(),"Gross sale",getGrossSale());
+                        super.toString(), "commission rate", getCommissionRate(), "Gross sale", getGrossSale());
     }
 }

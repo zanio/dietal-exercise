@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7fc84cb-7b71-46c0-9e33-6372b91650f5" name="Default Changelist" comment="" />
+    <list default="true" id="b7fc84cb-7b71-46c0-9e33-6372b91650f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/StringClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/StringClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/employee/PayrollSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/employee/PayrollSystemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/employee/SalarizedEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/BasePlusCommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/BasePlusCommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/CommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/PayrollSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/PayrollSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/SalarizedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/SalariedEmployee.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,16 +44,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZMAg7blwyil0PmzwIimkvIAdXK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -98,19 +115,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringClass" />
+      <item itemvalue="Application.BooksArrayList" />
       <item itemvalue="Application.BookList" />
       <item itemvalue="Application.BooksArrayListTest" />
-      <item itemvalue="Application.BooksArrayList" />
       <item itemvalue="Application.PayrollSystemTest" />
-      <item itemvalue="Application.StringClass" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PayrollSystemTest" />
+        <item itemvalue="Application.StringClass" />
         <item itemvalue="Application.BooksArrayListTest" />
         <item itemvalue="Application.BookList" />
         <item itemvalue="Application.BooksArrayList" />
-        <item itemvalue="Application.StringClass" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +168,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="356" y="0" width="570" height="680" key="#test/0.0.1280.680@0.0.1280.680" timestamp="1585458539290" />
-    <state width="1237" height="292" key="GridCell.Tab.0.bottom" timestamp="1585486726551">
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom" timestamp="1585502129435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="292" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585486726551" />
-    <state width="1237" height="292" key="GridCell.Tab.0.center" timestamp="1585486726551">
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585502129435" />
+    <state width="1237" height="216" key="GridCell.Tab.0.center" timestamp="1585502129435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="292" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585486726551" />
-    <state width="1237" height="292" key="GridCell.Tab.0.left" timestamp="1585486726551">
+    <state width="1237" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585502129435" />
+    <state width="1237" height="216" key="GridCell.Tab.0.left" timestamp="1585502129435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="292" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585486726551" />
-    <state width="1237" height="292" key="GridCell.Tab.0.right" timestamp="1585486726551">
+    <state width="1237" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585502129435" />
+    <state width="1237" height="216" key="GridCell.Tab.0.right" timestamp="1585502129435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="292" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585486726551" />
+    <state width="1237" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585502129435" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1585486531679">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -175,6 +192,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585475595150" />
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585494002026">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1585494002026" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584835034409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

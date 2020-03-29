@@ -7,16 +7,17 @@ public class StringClass {
 //    This method check if a word is Palindrome..
 
     public boolean Palindrome(String Word) {
-        char[] reverseWord = new char[Word.length() + 1];
-        for (int i = 1; i < Word.length() + 1; i++) {
-            reverseWord[i] = Word.charAt(Word.length() - i);
+        StringBuilder Words = new StringBuilder(Word);
+        char[] reverseWord = new char[Words.length() + 1];
+        for (int i = 1; i < Words.length() + 1; i++) {
+            reverseWord[i] = Words.charAt(Words.length() - i);
         }
 
         StringBuilder convertCharToString = new StringBuilder();
         for (char c : reverseWord) {
             convertCharToString.append(c);
         }
-        return convertCharToString.toString().equals(Word);
+        return convertCharToString.toString().equals(Words.toString());
     }
 
     public static void main(String[] args) {

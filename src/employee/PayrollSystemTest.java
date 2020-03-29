@@ -1,18 +1,19 @@
 package employee;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class PayrollSystemTest {
     public static void main(String[] args) {
-        SalarizedEmployee salaryEmployee =
-                new SalarizedEmployee("Aniefiok", "Akpan", "112-332-445", 80);
+        SalariedEmployee salaryEmployee =
+                new SalariedEmployee("Aniefiok", "Akpan", "112-332-445", 1000);
+
         HourlyEmployee hourlyEmployee = new HourlyEmployee("John", "Kelvin",
                 "232-332-121", 10, 32);
         CommissionEmployee commissionEmployee =
                 new CommissionEmployee("Faith", "Imoh", "123-453-123", 8, 30);
         BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Timothy", "Umoh", "230-111-321",
                 12, 30, 300);
+
 
         System.out.println("\nEmployee processed individually:");
 

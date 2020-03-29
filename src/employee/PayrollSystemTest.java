@@ -2,8 +2,36 @@ package employee;
 
 import java.util.ArrayList;
 
+import invoice.Invoice;
+
 public class PayrollSystemTest {
     public static void main(String[] args) {
+
+//        This section applies the concept of interface and abstract
+        Invoice invoice1 = new Invoice("4", "Five gallon of fish and meat",
+                4, 10.9);
+        Invoice invoice2 = new Invoice("2", "Five litre of groundnut oil",
+                2, 10.7);
+
+        CommissionEmployee commissionEmployee1 = new CommissionEmployee("dorcas", "debby", "223-552-111",
+                12, 200);
+        CommissionEmployee commissionEmployee2 = new CommissionEmployee("ajoke", "felicia", "223-552-111",
+                11, 300);
+
+        Payable[] payableObject = new Payable[4];
+        payableObject[0] = invoice1;
+        payableObject[1] = invoice2;
+        payableObject[2] = commissionEmployee1;
+        payableObject[3] = commissionEmployee2;
+
+        System.out.println("\n\nProcess Invoice and Employee polymorphically");
+
+        for(Payable currentPayable :payableObject){
+            System.out.printf("%n%s %n%s: $%,.2f%n",currentPayable.toString(),
+                    "Payment due", currentPayable.getPaymentAmount());
+        }
+
+//        This section applies the concept of abstraction alone.
         SalariedEmployee salaryEmployee =
                 new SalariedEmployee("Aniefiok", "Akpan", "112-332-445", 1000);
 
@@ -17,10 +45,10 @@ public class PayrollSystemTest {
 
         System.out.println("\nEmployee processed individually:");
 
-        System.out.printf("%n%s%n%s:  $%,.2f%n%n",salaryEmployee,"Earned",salaryEmployee.earnings());
-        System.out.printf("%n%s%n%s:  $%,.2f%n%n",hourlyEmployee,"Earned",hourlyEmployee.earnings());
-        System.out.printf("%n%s%n%s:  $%,.2f%n%n",commissionEmployee,"Earned",commissionEmployee.earnings());
-        System.out.printf("%n%s%n%s:  $%,.2f%n%n",basePlusCommissionEmployee,"Earned",basePlusCommissionEmployee.earnings());
+        System.out.printf("%n%s%n%s:  $%,.2f%n%n", salaryEmployee, "Earned", salaryEmployee.earnings());
+        System.out.printf("%n%s%n%s:  $%,.2f%n%n", hourlyEmployee, "Earned", hourlyEmployee.earnings());
+        System.out.printf("%n%s%n%s:  $%,.2f%n%n", commissionEmployee, "Earned", commissionEmployee.earnings());
+        System.out.printf("%n%s%n%s:  $%,.2f%n%n", basePlusCommissionEmployee, "Earned", basePlusCommissionEmployee.earnings());
 
         System.out.println("\nEmployee Processed polymorphically\n");
 
@@ -34,21 +62,19 @@ public class PayrollSystemTest {
 //        Use the instanceof during polymorphism to work with specifics values
 
         for (Employee currentEmployee : employees) {
-            if(currentEmployee instanceof BasePlusCommissionEmployee){
+            if (currentEmployee instanceof BasePlusCommissionEmployee) {
                 BasePlusCommissionEmployee employee = (BasePlusCommissionEmployee) currentEmployee;
                 employee.setBaseSalary(1.10 * employee.getBaseSalary());
                 System.out.printf("New base salary with 10%% increase: $%,.2f%n", employee.getBaseSalary());
             }
-            System.out.printf("%s $%,.2f%n","Earned",currentEmployee.earnings());
+            System.out.printf("%s $%,.2f%n", "Earned", currentEmployee.earnings());
 
         }
 
 //        Determine the type of relationship that exist for classes in ArrayList of employee
-        for(int typeCounter =0; typeCounter < employees.size();typeCounter++){
+        for (int typeCounter = 0; typeCounter < employees.size(); typeCounter++) {
             System.out.printf("Employee %d is a %s%n", typeCounter, employees.get(typeCounter).getClass().getName());
         }
-
-
 
 
     }

@@ -55,4 +55,9 @@ public class CommissionEmployee extends Employee {
                 .format("Salaried Employee: %s%n%s: %,.2f %n%s: $%,.2f",
                         super.toString(), "commission rate", getCommissionRate(), "Gross sale", getGrossSale());
     }
+
+    @Override
+    public double getPaymentAmount() {
+        return this.earnings();
+    }
 }

@@ -29,6 +29,11 @@ public class PayrollSystemTest {
         for(Payable currentPayable :payableObject){
             System.out.printf("%n%s %n%s: $%,.2f%n",currentPayable.toString(),
                     "Payment due", currentPayable.getPaymentAmount());
+            if(currentPayable instanceof Invoice){
+                Invoice invoice =(Invoice) currentPayable;
+                System.out.printf("%n%n%s:%n%s  $%,.2f%n%s:%s","Invoice", "Amount Payable",invoice.getPaymentAmount(),
+                        "class name",invoice.getClass().getName());
+            }
         }
 
 //        This section applies the concept of abstraction alone.

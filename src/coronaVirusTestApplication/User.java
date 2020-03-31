@@ -34,14 +34,13 @@ public class User implements API {
 
     @Override
     public String toString() {
-        return String.format("%n%n%s:%n%n%s: %s%n%s: %d%n%s: %s%n%s: %d%n%s: %d%n%n%s: %d%n%s: %s",
+        return String.format("%n%n%s:%n%n%s: %s%n%s: %d%n%s: %s%n%s: %d%n%s: %d%n%n%s",
                 "COVID-19 diagnose for Yourself", "Name", name, "Age",
-                age, "Gender", gender, "Total number of Yes", counterYes, "Total number of Nos", counterNo, "TOTAL POINTS", scorePoint,
-                "RECOMMENDATION", this.recommendation());
+                age, "Gender", gender, "Total number of Yes", counterYes, "Total number of Nos", counterNo, this.recommendation());
     }
 
     public void displayQuestionsAndTrackYesOrNoCounter() {
-        System.out.println("\n\n Please answer the following question so that we can predict if you have corona virus or not\n");
+        System.out.println("\n\n Please answer the following question ( YES OR NO ) so that we can predict if you have corona virus or not\n");
         for (int i = 0; i < data.length; i++) {
             System.out.printf("%s ? :", data[i][0]);
             Scanner input = new Scanner(System.in);
@@ -64,32 +63,20 @@ public class User implements API {
         }
     }
 
-    public int getCounterYes() {
-        return counterYes;
-    }
-
-    public int getCounterNo() {
-        return counterNo;
-    }
-
     public String[][] getUserRecord() {
         return userRecord;
     }
 
-    public int getScorePoint() {
-        return scorePoint;
-    }
-
     public String recommendation() {
         if (scorePoint <= 2)
-            return String.format("%n%s: %d%n%s: %s", "Total Points", scorePoint, "Recommendation", "Maybe Stress related an Observe");
+            return String.format("%n%s: %d%n%s: %s", "Total Points".toUpperCase(), scorePoint, "Recommendation".toUpperCase(), "Maybe Stress related an Observe");
         else if (scorePoint > 3 && scorePoint <= 5 || scorePoint == 3)
-            return String.format("%n%s: %d%n%s: %s", "Total Points", scorePoint, "Recommendation", "" +
+            return String.format("%n%s: %d%n%s: %s", "Total Points".toUpperCase(), scorePoint, "Recommendation".toUpperCase(), "" +
                     "Hydrate properly and proper personal hygiene. Observe and reevaluate after 2days");
         else if (scorePoint <= 12)
-            return String.format("%n%s: %d%n%s: %s", "Total Points", scorePoint, "Recommendation", "" +
+            return String.format("%n%s: %d%n%s: %s", "Total Points".toUpperCase(), scorePoint, "Recommendation".toUpperCase(), "" +
                     "Seek a consultation with Doctor");
-        else return String.format("%n%s: %d%n%s: %s", "Total Points", scorePoint, "Recommendation",
+        else return String.format("%n%s: %d%n%s: %s", "Total Points".toUpperCase(), scorePoint, "Recommendation".toUpperCase(),
                     "CALL THE NCDC HOTLINE 0800 9700 0010");
 
     }

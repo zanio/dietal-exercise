@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7fc84cb-7b71-46c0-9e33-6372b91650f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/carbonFootPrint/CarbonFootPrintObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coronaVirusTestApplication/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coronaVirusTestApplication/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coronaVirusTestApplication/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carbonFootPrint/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbonFootPrint/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carbonFootPrint/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbonFootPrint/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carbonFootPrint/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbonFootPrint/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carbonFootPrint/CarbonFootPrintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbonFootPrint/CarbonFootPrintTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarbonFootPrintTest">
-    <configuration name="BookList" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="BookList" />
-      <module name="untitled104" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UserTest">
     <configuration name="BooksArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BooksArrayListTest" />
       <module name="untitled104" />
@@ -116,20 +107,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coronaVirusTestApplication.UserTest" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coronaVirusTestApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.StringClass" />
-      <item itemvalue="Application.BookList" />
       <item itemvalue="Application.BooksArrayListTest" />
       <item itemvalue="Application.PayrollSystemTest" />
       <item itemvalue="Application.CarbonFootPrintTest" />
+      <item itemvalue="Application.UserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.CarbonFootPrintTest" />
         <item itemvalue="Application.PayrollSystemTest" />
         <item itemvalue="Application.StringClass" />
         <item itemvalue="Application.BooksArrayListTest" />
-        <item itemvalue="Application.BookList" />
       </list>
     </recent_temporary>
   </component>
@@ -166,10 +170,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1585539167445" />
-    <state x="531" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1585542723615">
+    <state x="531" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1585651815978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="531" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585542723615" />
+    <state x="531" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585651815978" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585513795202">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -178,22 +182,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="356" y="0" width="570" height="680" key="#test/0.0.1280.680@0.0.1280.680" timestamp="1585458539290" />
-    <state width="1237" height="216" key="GridCell.Tab.0.bottom" timestamp="1585580119834">
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom" timestamp="1585657545351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585580119834" />
-    <state width="1237" height="216" key="GridCell.Tab.0.center" timestamp="1585580119834">
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585657545351" />
+    <state width="1237" height="216" key="GridCell.Tab.0.center" timestamp="1585657545351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585580119834" />
-    <state width="1237" height="216" key="GridCell.Tab.0.left" timestamp="1585580119834">
+    <state width="1237" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585657545351" />
+    <state width="1237" height="216" key="GridCell.Tab.0.left" timestamp="1585657545347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585580119834" />
-    <state width="1237" height="216" key="GridCell.Tab.0.right" timestamp="1585580119834">
+    <state width="1237" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585657545347" />
+    <state width="1237" height="216" key="GridCell.Tab.0.right" timestamp="1585657545351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585580119834" />
+    <state width="1237" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585657545351" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1585486531679">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

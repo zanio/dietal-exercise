@@ -12,18 +12,41 @@ Developed By Aniefiok Akpan....
 
 */
 
+import java.util.Scanner;
+
 public class UserTest {
     public static void main(String[] args) {
-        User user = new User("Aniefiok Akpan", 50, "male");
+
+//      get user details:
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("\n\n----------------------------------------------------------------------------------------------------------------");
+        System.out.println("***Please fill in your Bio data***");
+        System.out.println("----------------------------------------------------------------------------------------------------------------");
+
+        System.out.printf("%n%s:", "Name");
+        String name1 = input.next();
+
+        System.out.printf("%n%s:", "Age");
+        int age1 = input.nextInt();
+
+        System.out.printf("%n%s:", "Gender (Only male or female)");
+        String gender1 = input.next();
+
+        User user = new User(name1, age1, gender1);
         user.displayQuestionsAndTrackYesOrNoCounter();
         System.out.println(user);
 
 //        Display all Responses
-        System.out.println("\n\n ***See Your responses below for all question asked***\n");
+        System.out.println("\n\n----------------------------------------------------------------------------------------------------------------");
+        System.out.println("***See Your responses below for all question asked***");
+        System.out.println("----------------------------------------------------------------------------------------------------------------");
 
         for (String[] index : user.getUserRecord()) {
-            System.out.println("\t\t\t\t" + index[0] + " " + "[<<" + index[1] + ">>]");
+            System.out.println("\t\t\t\t" + index[0] + " " + "[  " + index[1] + "  ]");
         }
+        input.close();
 
     }
 

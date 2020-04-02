@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import invoice.Invoice;
 
 public class PayrollSystemTest {
+
+
     public static void main(String[] args) {
 
 //        This section applies the concept of interface and abstract
@@ -15,8 +17,12 @@ public class PayrollSystemTest {
 
         CommissionEmployee commissionEmployee1 = new CommissionEmployee("dorcas", "debby", "223-552-111",
                 12, 200);
-        CommissionEmployee commissionEmployee2 = new CommissionEmployee("ajoke", "felicia", "223-552-111",
-                11, 300);
+        CommissionEmployee commissionEmployee2 = new BasePlusCommissionEmployee("ajoke", "felicia", "223-552-111",
+                11, 300,50);
+       
+
+        System.out.println(commissionEmployee2.getClass().getSimpleName());
+
 
         Payable[] payableObject = new Payable[4];
         payableObject[0] = invoice1;

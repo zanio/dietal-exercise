@@ -31,6 +31,7 @@ public class UserTest {
         System.out.printf("%n%s:", "Gender (Only male or female)".toUpperCase());
         String gender1 = input.next();
 
+
         User user = getUserAndDisplaySurvey(name1, age1, gender1);
 
         displayResponse("*** See Your responses below for all question asked ***");

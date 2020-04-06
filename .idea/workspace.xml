@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7fc84cb-7b71-46c0-9e33-6372b91650f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependencyInjectionExample/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependencyInjectionExample/DateSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependencyInjectionExample/SortingDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/AccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/BooksArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/BooksArrayListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/InstanceofDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Javapoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/StringClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/genericList/GenericRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/genericList/GenericRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/genericList/MyCustomListType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/genericList/MyCustomListType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BooksArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookArrayList/BooksArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BooksArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookArrayList/BooksArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InstanceofDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javapoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookArrayList/StringClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coronaVirusTestApplication/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coronaVirusTestApplication/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coronaVirusTestApplication/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coronaVirusTestApplication/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericList/GenericRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericList/GenericRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -219,22 +190,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="356" y="0" width="570" height="680" key="#test/0.0.1280.680@0.0.1280.680" timestamp="1585458539290" />
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1586176430675">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1586177857068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586176430675" />
-    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1586176430675">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586177857068" />
+    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1586177857067">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586176430675" />
-    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1586176430674">
+    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586177857067" />
+    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1586177857067">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586176430674" />
-    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1586176430675">
+    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586177857067" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1586177857068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586176430675" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586177857068" />
+    <state x="455" y="275" key="ReplaceDuplicatesPrompt" timestamp="1586176647033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="455" y="275" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1586176647033" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1585833187092">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -247,6 +222,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1585502163199" />
+    <state x="553" y="72" key="extract.method.dialog" timestamp="1586177198356">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="553" y="72" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1586177198356" />
     <state x="91" y="0" key="new project wizard" timestamp="1585813076683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -18,29 +18,13 @@ public class PayrollSystemTest {
         CommissionEmployee commissionEmployee1 = new CommissionEmployee("dorcas", "debby", "223-552-111",
                 12, 200);
         CommissionEmployee commissionEmployee2 = new BasePlusCommissionEmployee("ajoke", "felicia", "223-552-111",
-                11, 300,50);
-       
+                11, 300, 50);
+
 
         System.out.println(commissionEmployee2.getClass().getSimpleName());
 
 
-        Payable[] payableObject = new Payable[4];
-        payableObject[0] = invoice1;
-        payableObject[1] = invoice2;
-        payableObject[2] = commissionEmployee1;
-        payableObject[3] = commissionEmployee2;
-
-        System.out.println("\n\nProcess Invoice and Employee polymorphically");
-
-        for(Payable currentPayable :payableObject){
-            System.out.printf("%n%s %n%s: $%,.2f%n",currentPayable.toString(),
-                    "Payment due", currentPayable.getPaymentAmount());
-            if(currentPayable instanceof Invoice){
-                Invoice invoice =(Invoice) currentPayable;
-                System.out.printf("%n%n%s:%n%s  $%,.2f%n%s:%s","Invoice", "Amount Payable",invoice.getPaymentAmount(),
-                        "class name",invoice.getClass().getName());
-            }
-        }
+        processPolymorphically(invoice1, invoice2, commissionEmployee1, commissionEmployee2);
 
 //        This section applies the concept of abstraction alone.
         SalariedEmployee salaryEmployee =
@@ -54,6 +38,17 @@ public class PayrollSystemTest {
                 12, 30, 300);
 
 
+        ArrayList<Employee> employees = getEmployeesAndProcessPolymorphic(salaryEmployee, hourlyEmployee, commissionEmployee, basePlusCommissionEmployee);
+
+//        Determine the type of relationship that exist for classes in ArrayList of employee
+        for (int typeCounter = 0; typeCounter < employees.size(); typeCounter++) {
+            System.out.printf("Employee %d is a %s%n", typeCounter, employees.get(typeCounter).getClass().getName());
+        }
+
+
+    }
+
+    private static ArrayList<Employee> getEmployeesAndProcessPolymorphic(SalariedEmployee salaryEmployee, HourlyEmployee hourlyEmployee, CommissionEmployee commissionEmployee, BasePlusCommissionEmployee basePlusCommissionEmployee) {
         System.out.println("\nEmployee processed individually:");
 
         System.out.printf("%n%s%n%s:  $%,.2f%n%n", salaryEmployee, "Earned", salaryEmployee.earnings());
@@ -81,12 +76,26 @@ public class PayrollSystemTest {
             System.out.printf("%s $%,.2f%n", "Earned", currentEmployee.earnings());
 
         }
+        return employees;
+    }
 
-//        Determine the type of relationship that exist for classes in ArrayList of employee
-        for (int typeCounter = 0; typeCounter < employees.size(); typeCounter++) {
-            System.out.printf("Employee %d is a %s%n", typeCounter, employees.get(typeCounter).getClass().getName());
+    private static void processPolymorphically(Invoice invoice1, Invoice invoice2, CommissionEmployee commissionEmployee1, CommissionEmployee commissionEmployee2) {
+        Payable[] payableObject = new Payable[4];
+        payableObject[0] = invoice1;
+        payableObject[1] = invoice2;
+        payableObject[2] = commissionEmployee1;
+        payableObject[3] = commissionEmployee2;
+
+        System.out.println("\n\nProcess Invoice and Employee polymorphically");
+
+        for (Payable currentPayable : payableObject) {
+            System.out.printf("%n%s %n%s: $%,.2f%n", currentPayable.toString(),
+                    "Payment due", currentPayable.getPaymentAmount());
+            if (currentPayable instanceof Invoice) {
+                Invoice invoice = (Invoice) currentPayable;
+                System.out.printf("%n%n%s:%n%s  $%,.2f%n%s:%s", "Invoice", "Amount Payable", invoice.getPaymentAmount(),
+                        "class name", invoice.getClass().getName());
+            }
         }
-
-
     }
 }

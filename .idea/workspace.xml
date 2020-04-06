@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7fc84cb-7b71-46c0-9e33-6372b91650f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/coronaVirusTestApplication/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coronaVirusTestApplication/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coronaVirusTestApplication/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/employee/PayrollSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/PayrollSystemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserTest">
+  <component name="RunManager" selected="Application.PayrollSystemTest">
     <configuration name="CarbonFootPrintTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="carbonFootPrint.CarbonFootPrintTest" />
       <module name="untitled104" />
@@ -137,9 +134,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayrollSystemTest" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.GenericRunner" />
-        <item itemvalue="Application.PayrollSystemTest" />
         <item itemvalue="Application.CarbonFootPrintTest" />
         <item itemvalue="Application.StringClass" />
       </list>
@@ -190,22 +187,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="356" y="0" width="570" height="680" key="#test/0.0.1280.680@0.0.1280.680" timestamp="1585458539290" />
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1586177857068">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1586177933973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586177857068" />
-    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1586177857067">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586177933973" />
+    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1586177933972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586177857067" />
-    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1586177857067">
+    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586177933972" />
+    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1586177933972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586177857067" />
-    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1586177857068">
+    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586177933972" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1586177933973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586177857068" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586177933973" />
     <state x="455" y="275" key="ReplaceDuplicatesPrompt" timestamp="1586176647033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -222,10 +219,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1585502163199" />
-    <state x="553" y="72" key="extract.method.dialog" timestamp="1586177198356">
+    <state x="553" y="72" key="extract.method.dialog" timestamp="1586178525746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="553" y="72" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1586177198356" />
+    <state x="553" y="72" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1586178525746" />
     <state x="91" y="0" key="new project wizard" timestamp="1585813076683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -1,7 +1,7 @@
 package coronaVirusTestApplication;
 
 public interface API {
-    String[][] data = {{
+     String[][] data = {{
             "Do you have cough",
             "yes",
             "no",

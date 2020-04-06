@@ -1,8 +1,10 @@
+package BookArrayList;
+
 import jdk.jfr.Percentage;
 
 import java.util.Date;
 
-public class BooksArrayList extends  StringClass {
+public class BooksArrayList extends StringClass {
 
     private String name;
     private String title;

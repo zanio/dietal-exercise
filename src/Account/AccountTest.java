@@ -1,3 +1,7 @@
+package Account;
+
+import Account.Account;
+
 import java.util.Scanner;
 
 public class AccountTest {

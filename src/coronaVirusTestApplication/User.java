@@ -10,6 +10,9 @@ public class User implements API {
     private int counterNo = 0;
     private int scorePoint = 0;
     private String[][] userRecord = new String[12][3];
+    public static final String lineDivider = "-----------------------------------------------------------" +
+            "-----------------------------------------------------";
+
 
     public User(String name, int age, String gender) {
         this.name = name;
@@ -48,12 +51,16 @@ public class User implements API {
     }
 
     public void displayQuestionsAndTrackYesOrNoCounter() {
-        System.out.println("\n\n ----------------------------------------------------------------------------------------------------------------");
+
+        System.out.println("\n\n " + lineDivider);
         System.out.println("Please answer the following question ( YES OR NO ) " +
                 "so that we can predict if you have corona virus or not");
-        System.out.println("----------------------------------------------------------------------------------------------------------------");
+        System.out.println(lineDivider);
 
+        mainApplicationLogic();
+    }
 
+    private void mainApplicationLogic() {
         for (int i = 0; i < data.length; i++) {
             System.out.printf("%s ? :", data[i][0]);
             Scanner input = new Scanner(System.in);

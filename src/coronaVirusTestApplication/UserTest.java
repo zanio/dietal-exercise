@@ -20,34 +20,44 @@ public class UserTest {
 //      get user details:
 
         Scanner input = new Scanner(System.in);
+        displayResponse("***Please fill in your Bio data***");
 
-        System.out.println("\n\n----------------------------------------------------------------------------------------------------------------");
-        System.out.println("***Please fill in your Bio data***");
-        System.out.println("----------------------------------------------------------------------------------------------------------------");
-
-        System.out.printf("%n%s:", "Name");
+        System.out.printf("%n%s:", "Name".toUpperCase());
         String name1 = input.next();
 
-        System.out.printf("%n%s:", "Age");
+        System.out.printf("%n%s:", "Age".toUpperCase());
         int age1 = input.nextInt();
 
-        System.out.printf("%n%s:", "Gender (Only male or female)");
+        System.out.printf("%n%s:", "Gender (Only male or female)".toUpperCase());
         String gender1 = input.next();
 
+        User user = getUserAndDisplaySurvey(name1, age1, gender1);
+
+        displayResponse("*** See Your responses below for all question asked ***");
+
+        loopAndGetUserResponse(user);
+        input.close();
+
+    }
+
+    private static User getUserAndDisplaySurvey(String name1, int age1, String gender1) {
         User user = new User(name1, age1, gender1);
         user.displayQuestionsAndTrackYesOrNoCounter();
         System.out.println(user);
+        return user;
+    }
 
-//        Display all Responses
-        System.out.println("\n\n----------------------------------------------------------------------------------------------------------------");
-        System.out.println("***See Your responses below for all question asked***");
-        System.out.println("----------------------------------------------------------------------------------------------------------------");
-
+    private static void loopAndGetUserResponse(User user) {
         for (String[] index : user.getUserRecord()) {
             System.out.println("\t\t\t\t" + index[0] + " " + "[  " + index[1] + "  ]");
         }
-        input.close();
+    }
 
+    private static void displayResponse(String s) {
+        //        Display all Responses
+        System.out.println("\n\n" + User.lineDivider);
+        System.out.println(s.toUpperCase());
+        System.out.println(User.lineDivider);
     }
 
 }

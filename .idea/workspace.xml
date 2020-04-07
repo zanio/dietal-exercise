@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7fc84cb-7b71-46c0-9e33-6372b91650f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/employee/PayrollSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee/PayrollSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,22 +188,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="356" y="0" width="570" height="680" key="#test/0.0.1280.680@0.0.1280.680" timestamp="1585458539290" />
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1586177933973">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1586178754580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586177933973" />
-    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1586177933972">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586178754580" />
+    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1586178754580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586177933972" />
-    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1586177933972">
+    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586178754580" />
+    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1586178754580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586177933972" />
-    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1586177933973">
+    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586178754580" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1586178754580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586177933973" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586178754580" />
     <state x="455" y="275" key="ReplaceDuplicatesPrompt" timestamp="1586176647033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -227,9 +228,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1585813076683" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584835034409">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586178848263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584835034409" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586178848263" />
   </component>
 </project>
